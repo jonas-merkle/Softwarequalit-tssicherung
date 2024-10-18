@@ -1,3 +1,15 @@
+# exclude additional file formats
+*.pdf
+*.zip
+*.bkp
+*.dtmp
+
+# exclude additional directories
+build/
+
+# exclude some specific files
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/java,linux,macos,eclipse,windows,visualstudiocode,cmake
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,linux,macos,eclipse,windows,visualstudiocode,cmake
 
