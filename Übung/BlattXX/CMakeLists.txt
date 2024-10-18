@@ -1,6 +1,6 @@
 # 1. Set sub-project name
 # ------------------------------------------------------------------------------------------------------
-SET(PROJ_NAME Softwarequalitätssicherung_UebungsblattXX)
+SET(PROJ_NAME UebungsblattXX)
 PROJECT(${PROJ_NAME})
 MESSAGE(STATUS "· ${PROJ_NAME} document added!")
 

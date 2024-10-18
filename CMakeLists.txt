@@ -11,7 +11,7 @@ INCLUDE(cmspandoc)
 
 # 3. Define the main project
 # ------------------------------------------------------------------------------------------------------
-SET(PROJ_MAIN_NAME "Softwarequalitätssicherung")            # This ID must be unique
+SET(PROJ_MAIN_NAME "Softwarequalitaetssicherung")            # This ID must be unique
 PROJECT(${PROJ_MAIN_NAME}-main NONE)                        # Create solution project
 MESSAGE(STATUS "HTML generation for ${PROJ_MAIN_NAME} ...")
 
