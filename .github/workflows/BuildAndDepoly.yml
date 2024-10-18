@@ -1,0 +1,39 @@
+name: BuildAndDepoly
+
+on:
+  push:
+    branches: [ "main", "feature/ci"]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+          contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: "true"
+      
+      - name: 🔧 Install Tools
+        run: |
+          sudo apt update
+          sudo apt -y install build-essential cmake texlive texlive-latex-extra texlive-lang-german librsvg2-bin pandoc
+
+      - name: ⚙️ Build the PDF's and ZIP's
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make
+
+      - name: 🚀 Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: github.ref_name == 'main'
+        with:
+          folder: build/output
+          clean: "true"
+          single-commit: "true"
