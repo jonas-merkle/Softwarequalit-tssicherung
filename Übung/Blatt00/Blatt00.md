@@ -3,7 +3,7 @@
 |   |            |
 |---|------------|
 | Abgabe von: | **Jonas Merkle** [[jonas.merkle@uni-ulm.de](mailto:jonas.merkle@un-ulm.de?subject=%C3%9Cbung%20Angewandte%20Stochastik)] |
-| Abgabe bis: | XX.XX.2024 10:15 |
+| Abgabe bis: | 23.10.2024 08:00 |
 | Repository: | [https://github.com/jonas-merkle/Softwarequalitaetssicherung](https://github.com/jonas-merkle/Softwarequalitaetssicherung) |
 | Dateien:    | [PDF](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.pdf), [ZIP](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.zip), [HTML](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.html) |
 
