@@ -32,9 +32,9 @@ Insbesondere in den Lösungen zu den Übungsblättern kann es sein, dass Aufgabe
 |         |   |
 |---------|---|
 | GitHub: | [https://github.com/jonas-merkle/Softwarequalitaetssicherung/blob/main/%C3%9Cbung/Blatt00/Blatt00.md](https://github.com/jonas-merkle/Softwarequalitaetssicherung/blob/main/%C3%9Cbung/Blatt00/Blatt00.md) |
-| PDF:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/UebungsBlatt00/UebungsBlatt00_Jonas-Merkle.pdf](https://jonas-merkle.github.io/Softwarequalitaetssicherung/UebungsBlatt00/UebungsBlatt00_Jonas-Merkle.pdf) |
-| ZIP:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/UebungsBlatt00/UebungsBlatt00_Jonas-Merkle.zip](https://jonas-merkle.github.io/Softwarequalitaetssicherung/UebungsBlatt00/UebungsBlatt00_Jonas-Merkle.zip) |
-| HTML:   | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/UebungsBlatt00/UebungsBlatt00_Jonas-Merkle.html](https://jonas-merkle.github.io/Softwarequalitaetssicherung/UebungsBlatt00/UebungsBlatt00_Jonas-Merkle.html) |
+| PDF:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.pdf](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.pdf) |
+| ZIP:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.zip](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.zip) |
+| HTML:   | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.html](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.html) |
 
 ## How to build PDF's
 
