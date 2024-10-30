@@ -16,6 +16,8 @@ Vorlesung Softwarequalitätssicherung an der Universität Ulm im Wintersemester 
   - [Übung](#übung)
     - [Übungsblätter](#übungsblätter)
       - [Blatt 00](#blatt-00)
+      - [Blatt 01](#blatt-01)
+      - [Blatt 02](#blatt-02)
   - [How to build PDF's](#how-to-build-pdfs)
 
 ## Disclaimer
@@ -35,6 +37,24 @@ Insbesondere in den Lösungen zu den Übungsblättern kann es sein, dass Aufgabe
 | PDF:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.pdf](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.pdf) |
 | ZIP:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.zip](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.zip) |
 | HTML:   | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.html](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt00/Uebungsblatt00_Jonas-Merkle.html) |
+
+#### [Blatt 01](./Übung/Blatt01/Blatt01.md)
+
+|         |   |
+|---------|---|
+| GitHub: | [https://github.com/jonas-merkle/Softwarequalitaetssicherung/blob/main/%C3%9Cbung/Blatt01/Blatt01.md](https://github.com/jonas-merkle/Softwarequalitaetssicherung/blob/main/%C3%9Cbung/Blatt01/Blatt01.md) |
+| PDF:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.pdf](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.pdf) |
+| ZIP:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.zip](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.zip) |
+| HTML:   | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.html](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.html) |
+
+#### [Blatt 02](./Übung/Blatt02/Blatt02.md)
+
+|         |   |
+|---------|---|
+| GitHub: | [https://github.com/jonas-merkle/Softwarequalitaetssicherung/blob/main/%C3%9Cbung/Blatt02/Blatt02.md](https://github.com/jonas-merkle/Softwarequalitaetssicherung/blob/main/%C3%9Cbung/Blatt02/Blatt02.md) |
+| PDF:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.pdf](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.pdf) |
+| ZIP:    | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.zip](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.zip) |
+| HTML:   | [https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.html](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.html) |
 
 ## How to build PDF's
 
