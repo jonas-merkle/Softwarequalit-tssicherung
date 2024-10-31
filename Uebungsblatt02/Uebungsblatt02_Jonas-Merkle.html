@@ -1,0 +1,78 @@
+<h1 id="übungsblatt-02">Übungsblatt 02</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td>Abgabe von:</td>
+<td><strong>Jonas Merkle</strong> [<a href="mailto:jonas.merkle@uni-ulm.de?subject=%C3%9Cbung%3A%20Softwarequalit%C3%A4tssicherung">jonas.merkle@uni-ulm.de</a>]</td>
+</tr>
+<tr class="even">
+<td>Abgabe bis:</td>
+<td>05.11.2024 08:00</td>
+</tr>
+<tr class="odd">
+<td>Repository:</td>
+<td><a href="https://github.com/jonas-merkle/Softwarequalitaetssicherung">https://github.com/jonas-merkle/Softwarequalitaetssicherung</a></td>
+</tr>
+<tr class="even">
+<td>Dateien:</td>
+<td><a href="https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.pdf">PDF</a>, <a href="https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.zip">ZIP</a>, <a href="https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.html">HTML</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+<ul>
+<li><a href="#übungsblatt-02">Übungsblatt 02</a>
+<ul>
+<li><a href="#inhaltsverzeichnis">Inhaltsverzeichnis</a></li>
+<li><a href="#aufgabe-1">Aufgabe 1</a>
+<ul>
+<li><a href="#project-structure">Project Structure</a></li>
+<li><a href="#test-cases">Test Cases</a></li>
+<li><a href="#setup-and-execution">Setup and Execution</a></li>
+<li><a href="#notes">Notes</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="aufgabe-1">Aufgabe 1</h2>
+<p>The test project <a href="./src/SeleniumTestOfLSF/">SeleniumTestOfLSF</a> contains UI tests for the <strong>LSF website</strong> of Ulm University, implemented using <strong>Xunit</strong> and <strong>Selenium WebDriver</strong>. The tests verify the functionality of various UI components on the website, ensuring that elements such as the navigation menu, course search, and login fields work as expected.</p>
+<h3 id="project-structure">Project Structure</h3>
+<ul>
+<li><strong>UiTests.cs</strong>: Contains multiple test cases, each following the Arrange-Act-Assert pattern.</li>
+<li><strong>Dependencies</strong>:
+<ul>
+<li><a href="https://www.nuget.org/packages/Selenium.WebDriver/">Selenium.WebDriver</a></li>
+<li><a href="https://www.nuget.org/packages/Selenium.WebDriver.ChromeDriver/">Selenium.WebDriver.ChromeDriver</a></li>
+<li><a href="https://www.nuget.org/packages/fluentassertions/">FluentAssertions</a></li>
+<li><a href="https://www.nuget.org/packages/xunit/">Xunit</a></li>
+</ul></li>
+</ul>
+<h3 id="test-cases">Test Cases</h3>
+<ol type="1">
+<li><strong>Test_TopMenuInGerman</strong>: Verifies that the default top menu items are displayed in German.</li>
+<li><strong>Test_TopMenuInEnglish</strong>: Checks that the top menu items switch to English after selecting the English language option.</li>
+<li><strong>Test_SearchForCourse</strong>: Searches for a specific course by course number and confirms its presence in the results.</li>
+<li><strong>Test_CourseNameAndID</strong>: Validates that the course title and ID are displayed correctly on the course details page.</li>
+<li><strong>Test_LoginInputFieldsPresence</strong>: Confirms that the username, password, and login button fields are present on the login page.</li>
+</ol>
+<h3 id="setup-and-execution">Setup and Execution</h3>
+<ol type="1">
+<li><strong>Install Chrome</strong>: Make sure Chrome is installed on the machine running the tests.</li>
+<li><strong>Install Dependencies</strong>:
+<ul>
+<li><p>Use NuGet Package Manager or run:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="ex">dotnet</span> add package Selenium.WebDriver</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="ex">dotnet</span> add package Selenium.WebDriver.ChromeDriver</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="ex">dotnet</span> add package FluentAssertions</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="ex">dotnet</span> add package xunit</span></code></pre></div></li>
+</ul></li>
+<li><strong>Run Tests</strong>:
+<ul>
+<li><p>To execute tests, use the following command in the terminal:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="ex">dotnet</span> test</span></code></pre></div></li>
+</ul></li>
+</ol>
+<h3 id="notes">Notes</h3>
+<ul>
+<li>The tests are configured to run in <strong>headless mode</strong> by default. You can remove the <code>--headless</code> argument in <code>UiTests.cs</code> to view the browser during tests.</li>
+<li>ChromeDriver is set to maximize the browser window to ensure all elements are visible for interaction.</li>
+</ul>

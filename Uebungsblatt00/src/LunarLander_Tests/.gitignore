@@ -1,0 +1,8 @@
+# exclude the following directories
+out/
+doc/
+bin/
+
+# exclude the following files
+*.jar
+src/LunarLander/TestLander.java

@@ -1,0 +1,50 @@
+<h1 id="übungsblatt-01">Übungsblatt 01</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td>Abgabe von:</td>
+<td><strong>Jonas Merkle</strong> [<a href="mailto:jonas.merkle@uni-ulm.de?subject=%C3%9Cbung%3A%20Softwarequalit%C3%A4tssicherung">jonas.merkle@uni-ulm.de</a>]</td>
+</tr>
+<tr class="even">
+<td>Abgabe bis:</td>
+<td>30.10.2024 08:00</td>
+</tr>
+<tr class="odd">
+<td>Repository:</td>
+<td><a href="https://github.com/jonas-merkle/Softwarequalitaetssicherung">https://github.com/jonas-merkle/Softwarequalitaetssicherung</a></td>
+</tr>
+<tr class="even">
+<td>Dateien:</td>
+<td><a href="https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.pdf">PDF</a>, <a href="https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.zip">ZIP</a>, <a href="https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt01/Uebungsblatt01_Jonas-Merkle.html">HTML</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+<ul>
+<li><a href="#übungsblatt-01">Übungsblatt 01</a>
+<ul>
+<li><a href="#inhaltsverzeichnis">Inhaltsverzeichnis</a></li>
+<li><a href="#aufgabe-1">Aufgabe 1</a></li>
+<li><a href="#aufgabe-2--3--4-implementierung--property-tests-eines--binary-search-trees">Aufgabe 2 + 3 + 4: Implementierung + Property Tests eines Binary Search Trees</a></li>
+</ul></li>
+</ul>
+<h2 id="aufgabe-1">Aufgabe 1</h2>
+<h2 id="aufgabe-2-3-4-implementierung-property-tests-eines-binary-search-trees">Aufgabe 2 + 3 + 4: Implementierung + Property Tests eines Binary Search Trees</h2>
+<p>Die Implementierung meines Binary Search Trees und der Dazugehörigen property-based (Unit-) Tests ist in <code>C#</code> geschrieben. Als Test-Framework wurde <a href="https://github.com/xunit/xunit">XUnit</a> zusammen mit <a href="https://github.com/fscheck/FsCheck">FsCheck</a> (QuickCheck <code>C#</code> port) verwendet. Das zugehörige Projekt zur befindet sich in folgendem Verzeichnis: <a href="./src/BST/">./src/BST/</a>.</p>
+<p>Dabei ist das Projekt wie folgt strukturiert:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>  ./src/BST/</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>  |-- BinarySearchTree.Lib/</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>  |   |-- BinarySearchTree.cs           &lt;-- Implementierung des BST</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>  |   |-- Node.cs                       &lt;-- Helper Class `Node` für den BST</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>  |   |-- Mutants/</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>  |   |   |-- M1</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>  |   |   |   |-- BinarySearchTree.cs   &lt;-- Mutation 1 der BST Implementierung</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>  |   |   |-- M2</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>  |   |   |   |-- BinarySearchTree.cs   &lt;-- Mutation 2 der BST Implementierung</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>  |   |   |-- M*...</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>  |   |   ...</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>  |   ...</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>  |-- BinarySearchTree.Tests/</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a>  |   |-- PropertyTests.cs              &lt;-- Implementierung der property-based (Unit-) Tests</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a>  |   ...</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a>  ...</span></code></pre></div>
