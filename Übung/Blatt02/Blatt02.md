@@ -3,7 +3,7 @@
 |   |            |
 |---|------------|
 | Abgabe von: | **Jonas Merkle** [[jonas.merkle@uni-ulm.de](mailto:jonas.merkle@uni-ulm.de?subject=%C3%9Cbung%3A%20Softwarequalit%C3%A4tssicherung)] |
-| Abgabe bis: | XX.XX.2024 08:00 |
+| Abgabe bis: | 05.11.2024 08:00 |
 | Repository: | [https://github.com/jonas-merkle/Softwarequalitaetssicherung](https://github.com/jonas-merkle/Softwarequalitaetssicherung) |
 | Dateien:    | [PDF](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.pdf), [ZIP](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.zip), [HTML](https://jonas-merkle.github.io/Softwarequalitaetssicherung/Uebungsblatt02/Uebungsblatt02_Jonas-Merkle.html) |
 
@@ -44,7 +44,7 @@ The test project [SeleniumTestOfLSF](./src/SeleniumTestOfLSF/) contains UI tests
 2. **Install Dependencies**:
    - Use NuGet Package Manager or run:
 
-     ```sh
+     ```bash
      dotnet add package Selenium.WebDriver
      dotnet add package Selenium.WebDriver.ChromeDriver
      dotnet add package FluentAssertions
