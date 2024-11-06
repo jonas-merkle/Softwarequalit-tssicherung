@@ -23,6 +23,7 @@ SET(${PROJ_MAIN_NAME}_PATH_MAIN ${CMAKE_SOURCE_DIR} CACHE PATH "This directory c
 # 5. Adds the subdirectories
 # ------------------------------------------------------------------------------------------------------
 MESSAGE(STATUS "Adding documents in the sub directories...")
+ADD_SUBDIRECTORY(Übung/Blatt03)
 ADD_SUBDIRECTORY(Übung/Blatt02)
 ADD_SUBDIRECTORY(Übung/Blatt01)
 ADD_SUBDIRECTORY(Übung/Blatt00)
